@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        // Creating an object from Student class
+        Student s1 = new Student();   // <-- object
+        s1.name = "Neo";
+        s1.age = 20;
+
+        s1.display();  // using the object
+    }
+}
